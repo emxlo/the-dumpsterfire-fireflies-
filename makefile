@@ -1,6 +1,6 @@
 CC=gcc
 CFLAGS=-g -Wall
-OBJS=main.o matrix.o ui.o
+OBJS=main.o Board.o CollSprite.o MatxSprite.o
 
 all: main
 

@@ -2,7 +2,7 @@
 #include <ncurses.h>
 #include "Board.h"
 
-#define BOARD_DIM 27
+#define BOARD_DIM 50
 #define BOARD_ROwS BOARD_DIM
 #define BOARD_COLS BOARD_DIM * 2
 
