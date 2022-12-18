@@ -76,30 +76,3 @@ void draw_map(int yMax, int xMax) {
 
 }
 
-
-        /*attron(COLOR_PAIR(2));
-        //for (int y = 0; y < LINES; y++)
-        mvvline(1, 1, ' ', xMax/2);
-        attroff(COLOR_PAIR(2));*/
-/*WINDOW *w1;
-initscr();
-curs_set(0);
-noecho();
-start_color();
-
-init_pair(1,COLOR_BLUE, COLOR_RED);
-init_pair(2, COLOR_BLACK, COLOR_GREEN);
- w1= newwin (10,20,1,2); // Finestra in posizione y=1,x=2 di 10 linee e 20 colonne 
- box(w1,ACS_VLINE,ACS_HLINE); // Crea un bordo alla finestra 
-acqua= newwin (10,20,11,2); // Finestra
-box(w1,ACS_VLINE,ACS_HLINE);
-//mvwprintw(w1,5,3,"premi un tasto"); // Scrive a partire dalla linea 5, colonna 3 
-
-wbkgd(w1, COLOR_PAIR(1));
-wbkgd(acqua, COLOR_PAIR(2));
-wgetch(w1); // Legge un carattere dalla finestra specificata 
-delwin(w1); // Rimuove finestra specificata 
-refresh();
-endwin();
-return 0;
-}*/
